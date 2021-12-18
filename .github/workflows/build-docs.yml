@@ -6,8 +6,7 @@ on:
       - main
   workflow_run:
     workflows: ["Regenerate design tokens"]
-    types:
-      - complete
+    types: [completed]
 
 jobs:
   build:
