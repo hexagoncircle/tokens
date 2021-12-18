@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
+          npx sass  --no-source-map src/scss:public/css
           npx @11ty/eleventy --pathprefix=tokens
 
       - name: Deploy
