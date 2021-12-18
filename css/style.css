@@ -1,0 +1,44 @@
+:where(html) {
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-blue: #1e90ff;
+  --colors-yellow: #ffff69;
+  --colors-green: #B2B278;
+  --theme-text: #000000;
+  --theme-bg: #ffffff;
+  --theme-accent: #1e90ff;
+}
+
+[data-mode=dark] {
+  --theme-text: #ffffff;
+  --theme-bg: #000000;
+  --theme-accent: #ffff69;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: min(1000px, 100%);
+  margin: 0;
+  padding-inline: clamp(1rem, 5vw, 2rem);
+  background-color: #fafafa;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.color-block {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.2rem;
+}
