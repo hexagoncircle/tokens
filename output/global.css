@@ -1,10 +1,7 @@
 .global-theme {
-          --colors-black: #000000;
-  --colors-white: #ffffff;
-  --colors-blue: #1e90ff;
-  --colors-yellow: #ffff69;
-  --colors-green: #B2B278;
-  --theme-text: #ffffff;
-  --theme-bg: #000000;
-  --theme-bg-accent: #ffff69;
+          --color-black: #000000;
+  --color-white: #ffffff;
+  --color-blue: #1e90ff;
+  --color-yellow: #ffff69;
+  --color-green: #B2B278;
       }

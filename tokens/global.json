@@ -1,5 +1,5 @@
 {
-  "colors": {
+  "color": {
     "black": {
       "value": "#000000",
       "type": "color"
@@ -18,20 +18,6 @@
     },
     "green": {
       "value": "#B2B278",
-      "type": "color"
-    }
-  },
-  "theme": {
-    "text": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "bg": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "bg-accent": {
-      "value": "#ffff69",
       "type": "color"
     }
   }

@@ -1,5 +1,5 @@
 .dark-theme {
-          --theme-text: #ffffff;
-  --theme-bg: #000000;
-  --theme-bg-accent: #ffff69;
+          --color-text: #ffffff;
+  --color-bg: #000000;
+  --color-bg-accent: #ffff69;
       }
