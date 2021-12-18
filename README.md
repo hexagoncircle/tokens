@@ -6,6 +6,13 @@ An example of exporting token values from a Figma library using [Figma Token](ht
 
 Give the design team more control over the atomic elements used throughout a codebase by exporting their library tokens directly to the project repository.
 
+## Get started
+
+- Clone repository
+- Run `npm install`
+- Run `npm start`
+- Run away
+
 ## Inspiration
 
 - [Design Tokens on Asana's Design Systems Team](https://www.youtube.com/watch?v=ylDed18OVdY)
