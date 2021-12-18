@@ -16,6 +16,10 @@
       "yellow": {
         "value": "#ffff69",
         "type": "color"
+      },
+      "green": {
+        "value": "#B2B278",
+        "type": "color"
       }
     },
     "theme": {
