@@ -24,15 +24,15 @@
     },
     "theme": {
       "text": {
-        "value": "#ffffff",
+        "value": "{colors.black}",
         "type": "color"
       },
       "bg": {
-        "value": "#000000",
+        "value": "{colors.white}",
         "type": "color"
       },
-      "bg-accent": {
-        "value": "#ffff69",
+      "accent": {
+        "value": "{colors.blue}",
         "type": "color"
       }
     }
@@ -47,24 +47,8 @@
         "value": "{colors.black}",
         "type": "color"
       },
-      "bg-accent": {
+      "accent": {
         "value": "{colors.yellow}",
-        "type": "color"
-      }
-    }
-  },
-  "light": {
-    "theme": {
-      "text": {
-        "value": "{colors.black}",
-        "type": "color"
-      },
-      "bg": {
-        "value": "{colors.white}",
-        "type": "color"
-      },
-      "bg-accent": {
-        "value": "{colors.blue}",
         "type": "color"
       }
     }
