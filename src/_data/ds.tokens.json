@@ -24,6 +24,10 @@
       "gray": {
         "value": "#eeeeee",
         "type": "color"
+      },
+      "grayDark": {
+        "value": "#cccccc",
+        "type": "color"
       }
     },
     "theme": {
