@@ -34,7 +34,6 @@
     "not IE 11"
   ],
   "devDependencies": {
-    "json-to-scss": "^1.6.2",
     "style-dictionary": "^3.1.1"
   }
 }

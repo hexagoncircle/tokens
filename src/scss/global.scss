@@ -1,5 +1,6 @@
-.global-theme {
-          --colors-black: #000000;
+
+:where(html) {
+  --colors-black: #000000;
   --colors-white: #ffffff;
   --colors-blue: #1e90ff;
   --colors-yellow: #ffff69;
@@ -7,4 +8,4 @@
   --theme-text: #ffffff;
   --theme-bg: #000000;
   --theme-bg-accent: #ffff69;
-      }
+}

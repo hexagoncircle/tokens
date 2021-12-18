@@ -5,11 +5,12 @@ const StyleDictionaryPackage = require("style-dictionary");
 StyleDictionaryPackage.registerFormat({
   name: "css/variables",
   formatter: function (dictionary, config) {
-    return `${this.selector} {
-        ${dictionary.allProperties
-          .map((prop) => `  --${prop.name}: ${prop.value};`)
-          .join("\n")}
-      }`;
+    return `
+${this.selector} {
+${dictionary.allProperties
+  .map((prop) => `  --${prop.name}: ${prop.value};`)
+  .join("\n")}
+}`;
   },
 });
 
@@ -38,12 +39,13 @@ function getStyleDictionaryConfig(theme) {
     platforms: {
       web: {
         transforms: ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        buildPath: `output/`,
+        buildPath: `src/scss/`,
         files: [
           {
-            destination: `${theme}.css`,
+            destination: `${theme}.scss`,
             format: "css/variables",
-            selector: `.${theme}-theme`,
+            selector:
+              theme === "global" ? ":where(html)" : `[data-mode="${theme}"]`,
           },
         ],
       },
@@ -53,7 +55,7 @@ function getStyleDictionaryConfig(theme) {
 
 console.log("Build started...");
 
-["global", "dark", "light"].map(function (theme) {
+["global", "dark"].map(function (theme) {
   console.log("\n==============================================");
   console.log(`\nProcessing: [${theme}]`);
 
