@@ -1,6 +1,6 @@
-# Token System
+# Tokens
 
-Exporting tokens from a Figma library using [Figma Token](https://docs.tokens.studio/) to then convert into a system of CSS custom properties for developers to use in their code styles.
+An example of exporting a JSON of token values from a Figma library using [Figma Token](https://docs.tokens.studio/) that are then converted into a system of CSS custom properties for developers to use in their code styles.
 
 ## Project goal
 
