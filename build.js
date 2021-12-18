@@ -42,7 +42,7 @@ function getStyleDictionaryConfig(theme) {
         buildPath: `src/scss/`,
         files: [
           {
-            destination: `${theme}.scss`,
+            destination: `_${theme}.scss`,
             format: "css/variables",
             selector:
               theme === "global" ? ":where(html)" : `[data-mode="${theme}"]`,
