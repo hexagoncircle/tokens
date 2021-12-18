@@ -35,11 +35,11 @@ StyleDictionaryPackage.registerTransform({
 
 function getStyleDictionaryConfig(theme) {
   return {
-    source: [`tokens/${theme}.json`],
+    source: [`src/_data/tokens/${theme}.json`],
     platforms: {
       web: {
         transforms: ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        buildPath: `src/scss/`,
+        buildPath: `src/scss/variables/`,
         files: [
           {
             destination: `_${theme}.scss`,
