@@ -21,9 +21,7 @@
         "value": "#B2B278",
         "type": "color"
       }
-    }
-  },
-  "light": {
+    },
     "theme": {
       "text": {
         "value": "{colors.black}",
