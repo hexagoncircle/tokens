@@ -24,10 +24,10 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build          
+          npx @11ty/eleventy --pathprefix=tokens
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./docs
+          publish_dir: ./public
           github_token: ${{ secrets.GITHUB_TOKEN }}
