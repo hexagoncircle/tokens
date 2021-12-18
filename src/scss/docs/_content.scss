@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
-  width: min(800px, 100% - 2rem);
-  padding-inline: 2rem;
+  width: min(1000px, 100%);
+  margin: 0;
+  padding-inline: clamp(1rem, 5vw, 2rem);
   background-color: hsl(0 0% 98%);
 }
