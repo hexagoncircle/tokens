@@ -1,0 +1,58 @@
+{
+  "global": {
+    "colors": {
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#1e90ff",
+        "type": "color"
+      },
+      "yellow": {
+        "value": "#ffff69",
+        "type": "color"
+      },
+      "green": {
+        "value": "#B2B278",
+        "type": "color"
+      }
+    }
+  },
+  "light": {
+    "theme": {
+      "text": {
+        "value": "{colors.black}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "{colors.white}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{colors.blue}",
+        "type": "color"
+      }
+    }
+  },
+  "dark": {
+    "theme": {
+      "text": {
+        "value": "{colors.white}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "{colors.black}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{colors.yellow}",
+        "type": "color"
+      }
+    }
+  }
+}
