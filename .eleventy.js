@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("./src/sass/");
+  eleventyConfig.addWatchTarget("./src/scss/");
 
   return {
     dir: {
