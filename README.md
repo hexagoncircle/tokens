@@ -1,6 +1,6 @@
 # Tokens
 
-An example of exporting a JSON of token values from a Figma library using [Figma Token](https://docs.tokens.studio/). When synced, a GitHub action is triggered to build Sass partials with mode-specific CSS variables, ready for dev teams to go wild with styles.
+An example of exporting token values from a Figma library using [Figma Token](https://docs.tokens.studio/). When synced, a GitHub action is triggered to build Sass partials with mode-specific CSS variables, ready for dev teams to go wild with styles.
 
 ## Project goal
 
