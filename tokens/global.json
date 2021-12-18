@@ -1,0 +1,38 @@
+{
+  "colors": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "blue": {
+      "value": "#1e90ff",
+      "type": "color"
+    },
+    "yellow": {
+      "value": "#ffff69",
+      "type": "color"
+    },
+    "green": {
+      "value": "#B2B278",
+      "type": "color"
+    }
+  },
+  "theme": {
+    "text": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "bg": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#1e90ff",
+      "type": "color"
+    }
+  }
+}
