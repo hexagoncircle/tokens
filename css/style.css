@@ -4,6 +4,7 @@
   --colors-blue: #1e90ff;
   --colors-yellow: #ffff69;
   --colors-green: #B2B278;
+  --colors-gray: #cccccc;
   --theme-text: #000000;
   --theme-bg: #ffffff;
   --theme-accent: #1e90ff;
@@ -22,7 +23,7 @@
 body {
   font-family: sans-serif;
   width: min(1000px, 100%);
-  margin: 0;
+  margin: 1rem 0;
   padding-inline: clamp(1rem, 5vw, 2rem);
   background-color: #fafafa;
 }
