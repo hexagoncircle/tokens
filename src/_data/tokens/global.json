@@ -19,6 +19,10 @@
     "green": {
       "value": "#B2B278",
       "type": "color"
+    },
+    "gray": {
+      "value": "#cccccc",
+      "type": "color"
     }
   },
   "theme": {
