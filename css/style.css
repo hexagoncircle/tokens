@@ -6,6 +6,9 @@
   --color-green: #B2B278;
   --color-gray: #eeeeee;
   --color-gray-dark: #cccccc;
+  --theme-text: #000000;
+  --theme-bg: #ffffff;
+  --theme-accent: #1e90ff;
 }
 
 [data-mode=dark] {
