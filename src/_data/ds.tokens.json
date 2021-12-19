@@ -29,9 +29,7 @@
         "value": "#cccccc",
         "type": "color"
       }
-    }
-  },
-  "light": {
+    },
     "theme": {
       "text": {
         "value": "{color.black}",
