@@ -28,5 +28,19 @@
       "value": "#cccccc",
       "type": "color"
     }
+  },
+  "theme": {
+    "text": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "bg": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#1e90ff",
+      "type": "color"
+    }
   }
 }
