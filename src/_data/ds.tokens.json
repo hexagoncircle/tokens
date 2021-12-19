@@ -1,6 +1,6 @@
 {
   "global": {
-    "colors": {
+    "color": {
       "black": {
         "value": "#000000",
         "type": "color"
@@ -29,18 +29,20 @@
         "value": "#cccccc",
         "type": "color"
       }
-    },
+    }
+  },
+  "light": {
     "theme": {
       "text": {
-        "value": "{colors.black}",
+        "value": "{color.black}",
         "type": "color"
       },
       "bg": {
-        "value": "{colors.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "accent": {
-        "value": "{colors.blue}",
+        "value": "{color.blue}",
         "type": "color"
       }
     }
@@ -48,15 +50,15 @@
   "dark": {
     "theme": {
       "text": {
-        "value": "{colors.white}",
+        "value": "{color.white}",
         "type": "color"
       },
       "bg": {
-        "value": "{colors.black}",
+        "value": "{color.black}",
         "type": "color"
       },
       "accent": {
-        "value": "{colors.yellow}",
+        "value": "{color.yellow}",
         "type": "color"
       }
     }
