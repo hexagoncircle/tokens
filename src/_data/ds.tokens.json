@@ -28,6 +28,10 @@
       "gray300": {
         "value": "#cccccc",
         "type": "color"
+      },
+      "gray400": {
+        "value": "#cdcdcd",
+        "type": "color"
       }
     },
     "theme": {
