@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'src/_data/ds.tokens.json'
   workflow_run:
     workflows: ["Regenerate design tokens"]
     types: [completed]
