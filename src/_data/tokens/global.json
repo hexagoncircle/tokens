@@ -20,11 +20,11 @@
       "value": "#B2B278",
       "type": "color"
     },
-    "gray": {
+    "gray200": {
       "value": "#eeeeee",
       "type": "color"
     },
-    "grayDark": {
+    "gray300": {
       "value": "#cccccc",
       "type": "color"
     }
