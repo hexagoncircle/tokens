@@ -66,10 +66,6 @@
       "accent": {
         "value": "{color.yellow}",
         "type": "color"
-      },
-      "text-accent": {
-        "value": "{colors.white}",
-        "type": "color"
       }
     }
   }
