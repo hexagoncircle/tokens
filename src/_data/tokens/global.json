@@ -31,6 +31,10 @@
     "gray400": {
       "value": "#cdcdcd",
       "type": "color"
+    },
+    "puke": {
+      "value": "#B2B278",
+      "type": "color"
     }
   },
   "theme": {
