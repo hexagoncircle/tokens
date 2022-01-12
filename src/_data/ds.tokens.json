@@ -32,6 +32,10 @@
       "gray400": {
         "value": "#cdcdcd",
         "type": "color"
+      },
+      "puke": {
+        "value": "#B2B278",
+        "type": "color"
       }
     },
     "theme": {
@@ -61,6 +65,10 @@
       },
       "accent": {
         "value": "{color.yellow}",
+        "type": "color"
+      },
+      "text-accent": {
+        "value": "{colors.white}",
         "type": "color"
       }
     }
